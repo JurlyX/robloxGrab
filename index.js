@@ -9,7 +9,7 @@ const PORT = 5000;
 app.use(cookieParser());
 
 const customProxy = createProxyMiddleware({
-  target: "https://www.cloudmoonapp.com/",
+  target: "https://roblox.com/",
   changeOrigin: true,
   onProxyReq: (proxyReq) => {
     storedCookies.forEach((cookie) => {
